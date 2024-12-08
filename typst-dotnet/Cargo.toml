@@ -1,0 +1,14 @@
+[package]
+name = "typst-dotnet"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+interoptopus = {version = "0.14.27", features = ["serde"]}
+interoptopus_backend_csharp = { version = "0.14.25", features = ["serde"] }
+typst = "0.12.0"
+typst-as-lib = {version = "0.11.1", features = ["packages"]}
+typst-svg = "0.12.0"

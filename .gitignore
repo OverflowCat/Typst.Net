@@ -1,0 +1,13 @@
+# FFI dist
+/bindings
+*.dll
+
+# Rust build
+target
+
+# C# build
+Typst.Net/bin
+Typst.Net/obj
+
+# Typst output
+*.svg
